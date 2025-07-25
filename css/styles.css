@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared styles */
+.btn-priamry{
+    /* font-size: 16px; */
+    color: #ffffff;
+    padding: 12px 18px 12px 18px;
+    background-color: #FF900E;
+    border-radius: 5px;
+}
+.work-sans-fonts {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header styles */
+/* styles for navbar  */
+/* .navbar ul li a{
+    color: #8987A1;
+}
+.navbar ul li a:active{
+    color: #252432;
+} */
+
+.brands_new{
+    background-color: rgba(255, 144, 14, 0.1);
+    /* width: 1920px; */
+}
