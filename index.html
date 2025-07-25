@@ -8,22 +8,173 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-sky-50 work-sans-fonts">
-    <header class="container mx-auto max-w-[1140px] mt-10">
-        <nav class="navbar flex justify-between">
-            <h3>Logo</h3>
+    <header class="container mx-auto max-w-[1140px] mt-10 mb-[120px] max-sm:mx-auto">
+        <nav class="navbar flex items-center justify-between">
+            <div class="logo w-[135px] h-[80px]"><img src="images/logo.png" alt=""></div>
             <ul class="nav-links flex gap-4">
                 <li><a href="#" class="text-gray-500 active:text-blue-600 max-sm:hidden">Home</a></li>
                 <li><a href="#" class="text-gray-500 max-sm:hidden">Shop</a></li>
-                <li><a href="#" class="text-gray-500 max-sm:hidden">About us </a></li>
-                <li><a href="#" class="text-gray-500 active:text-blue-600">Cart ($56)</a></li>
+                <li><a href="#" class="text-gray-500 max-sm:hidden">About us</a></li>
+                <li><a href="#" class="text-gray-500 active:text-blue-600 pr-[28px]">Cart ($56)</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
+        <!-- Fresh flower -->
+        <section class="fresh-flowers flex items-end max-sm:mx-auto  max-sm:flex-col-reverse max-sm:text-[24px] mx-auto max-w-[1140px] gap-4">
+            <div class="fresh-flower-title w-[570px]">
+                <h1 class="max-sm:text-[20px] max-sm:pl-[236px] max-sm:pt-[25px] font-bold pb-6 text-[60px]">ALWAYS <span class="text-[#E95A08]">FRESH <br>FLOWERS</span> </h1>
+                <p class="text-stone-500 text-[22px] max-sm:pl-[234px] max-sm:text-[14px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="fresh-flower-img w-[570px]">
+                <img src="images/hero-flower.png" alt="">
+            </div>
+        </section>
+        <!-- Our Plants   -->
+        <section class="our-plants mx-auto max-w-[1140px] mt-[120px]">
+            <div class="our-plant text-center">
+                <h1 class="our-plant-title font-bold pb-6 text-[50px]"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="our-plant-description mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="our-plants-img grid grid-cols-4 gap-4 max-sm:grid-cols-2">
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+                <div class="our-plant-img">
+                    <img src="images/sample-flower-image.png" alt="A nice sample fower image">
+                    <h2 class="text-[20px] font-[400] text-center pt-5">Lily Blossom</h2>
+                    <p class="text-center font-bold pb-5">20 USD</p>
+                    <button class="btn-priamry">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+        <section class="flower-plants flex  max-sm:flex-col gap-10 mx-auto max-w-[1140px] mt-[120px]">
+            <div class="flower-plant-img w-[540px]">
+                <!-- <img class="img-abosulate" src="images/trusted-badge.png" alt=""> -->
+                <img src="images/flower-store.png" alt="Flower store image">
+            </div>
+            <div class="flower-plant-article w-[540px] h-[600px] mt-10">
+                <h1 class="text-[50px] font-bold max-sm:text-[37px] max-sm:pl-[18px]">Flower & Plants <br>Lover</h1>
+                <ul class="p-6 list-disc max-sm:pl-[32px] w-[375px]">
+                    <li class="pb-5 text-stone-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="pb-5 text-stone-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    <li class="pb-5 text-stone-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="latest-deals mx-auto max-w-[1140px]">
+            <div class="latest-deal text-center">
+                <h1 class="latest-deal-title font-bold pb-6 text-[50px]"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="latest-deal-description mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="latest-deals-img flex max-sm:flex-col gap-10">
+                <div>
+                    <div class="flex items-center justify-center w-[366px] h-[206px] bg-cover bg-no-repeat mb-5" style="background-image: url(images/deal-ana.png);">
+                        <div class="latest-detals-title text-[#ffffff] font-bold text-center">
+                            <h2>60% Off | Bloom Plant</h2>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center w-[366px] h-[206px] bg-no-repeat" style="background-image: url(images/deal-bloom.png);">
+                        <div class="latest-detals-title text-[#ffffff] font-bold text-center">
+                            <h2>60% Off | Bloom Plant</h2>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex items-center justify-center w-[753px] h-[418px] bg-no-repeat" style="background-image: url(images/deal-zabo.png);">
+                    <div class="latest-detals-title text-[#ffffff] font-bold text-center">
+                        <h2>60% Off | Bloom Plant</h2>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="joins h-[533px] flex items-center justify-center mt-[120px]" style="background-image: url(images/news-letter-bg.png);">
+            <div class="join text-center">
+                <h3 class="text-[#ffffff] font-bold text-[50px] pb-6">Join the colorful Bunch</h3>
+                <input type="email" placeholder="write email">
+                <input type="button" value="Subscribe">
+            </div>
+        </section>
     </main>
     <footer>
-        
+        <section class="flower-plants flex  max-sm:flex-col gap-32 mx-auto max-w-[1140px] mt-[80px]">
+            <div class="footer-img">
+                <img src="images/logo.png" alt="">
+                <p class="w-[360px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>FAQ</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Help Center</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social">
+                <div class="flex gap-5">
+                    <a href="#"><img src="images/icon-facebook.png" alt=""></a>
+                    <a href="#"><img src="images/icon-linkedin.png" alt=""></a>
+                    <a href="#"><img src="images/icon-twitter.png" alt=""></a>
+                    <a href="#"><img src="images/icon-youtube.png" alt=""></a>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
