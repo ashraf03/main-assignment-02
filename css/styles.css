@@ -62,4 +62,10 @@ h2.latest-detals-title {
         width: 90px;
         padding-left: 24px;
     }
+    .join input[type="email"] {
+        background-color: #ffffff;
+        padding: 9px 14px 9px 14px;
+        width: 270px;
+        margin-right: -6px;
+    }
 }
